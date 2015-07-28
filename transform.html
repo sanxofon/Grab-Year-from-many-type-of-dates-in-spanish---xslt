@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Transformador XSLT con Javascript</title>
+		<script src="xslt.pack.js" type="text/javascript"></script>
+		<style>
+			date {
+				border: 1px solid black;
+				display: block;
+				width:278px;
+				padding: 10px;
+			}
+			original,ini,fin {
+				display: inline-block;
+				width:40px;
+				margin: 5px;
+				padding: 2px;
+			}
+			original {
+				border: 1px solid green;
+				width:150px;
+			}
+			ini {
+				border: 1px solid red;
+			}
+			fin {
+				border: 1px solid blue;
+			}
+		</style>
+	</head>
+	<body>
+		<pre id="transformResult"></pre>
+		<script type="text/javascript">
+			window.onload = function() {
+			    new Transformation().setXml("dates.xml")
+			        .setXslt("date_transform.xsl").transform("transformResult");
+			}
+		</script>
+	</body>
+</html>
