@@ -10,7 +10,7 @@
 * Matches and removes <i>circa</i> (<b>ca.</b>) at the begining of the date string.
 * Matches, takes acount & removes <i>antes de Cristo</i> (<b>a.c.</b>) at the end of the date string.
 * Converts <i>antes de Cristo</i> (<b>a.c.</b>) date strings to  negative years.
-* Avoids the year <b>0</b> adn converts it to <b>1</b> or <b>-1</b> depending on the case.
+* Avoids the year <b>0</b> and converts it to <b>1</b> or <b>-1</b> depending on the case.
 * Converts centuries (<b>siglo</b>) in roman numerals to range of years.
 * Generates year ranges for <i>unknown</i> date digits (<b>u</b>), eg. <b>178u</b>, <b>17uu</b>, <b>1u89</b>.
 
