@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<dates>
+	<date><original>0</original><ini>1</ini><fin/></date>
+	<date><original>u</original><ini>1</ini><fin>9</fin></date>
+	<date><original>ca. u000 a.c.</original><ini>-9000</ini><fin>-1000</fin></date>
+    <date><original>siglo I</original><ini>1</ini><fin>100</fin></date>
+    <date><original>siglo I a.c.</original><ini>-100</ini><fin>-1</fin></date>
+	<date><original>ca. u8u-12-31 a.c.</original><ini>-989</ini><fin>-180</fin></date>
+    <date><original>1789-12-31</original><ini>1789</ini><fin/></date>
+    <date><original>ca. 1789-12-31</original><ini>1789</ini><fin/></date>
+    <date><original>1789-12-31 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>ca. 1789-12-31 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>1789-12</original><ini>1789</ini><fin/></date>
+    <date><original>ca. 1789-12</original><ini>1789</ini><fin/></date>
+    <date><original>1789-12 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>ca. 1789-12 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>1789</original><ini>1789</ini><fin/></date>
+    <date><original>ca. 1789</original><ini>1789</ini><fin/></date>
+    <date><original>1789 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>ca. 1789 a.c.</original><ini>-1789</ini><fin/></date>
+    <date><original>siglo XV</original><ini>1400</ini><fin>1500</fin></date>
+    <date><original>siglo XV a.c.</original><ini>-1500</ini><fin>-1400</fin></date>
+    <date><original>178u</original><ini>1780</ini><fin>1789</fin></date>
+    <date><original>17uu</original><ini>1700</ini><fin>1799</fin></date>
+    <date><original>1uuu</original><ini>1000</ini><fin>1999</fin></date>
+    <date><original>u789</original><ini>1789</ini><fin/></date>
+    <date><original>uu89</original><ini>1089</ini><fin>1989</fin></date>
+    <date><original>uuu9</original><ini>1009</ini><fin>1999</fin></date>
+    <date><original>1u89</original><ini>1089</ini><fin>1989</fin></date>
+    <date><original>1uu9</original><ini>1009</ini><fin>1999</fin></date>
+    <date><original>u9</original><ini>19</ini><fin>99</fin></date>
+    <date><original>u89</original><ini>189</ini><fin>989</fin></date>
+    <date><original>uu9</original><ini>109</ini><fin>999</fin></date>
+    <date><original>ca. 178u</original><ini>1780</ini><fin>1789</fin></date>
+    <date><original>ca. 17uu</original><ini>1700</ini><fin>1799</fin></date>
+    <date><original>ca. 1uuu</original><ini>1000</ini><fin>1999</fin></date>
+    <date><original>ca. u789</original><ini>1789</ini><fin/></date>
+    <date><original>ca. uu89</original><ini>1089</ini><fin>1989</fin></date>
+    <date><original>ca. uuu9</original><ini>1009</ini><fin>1999</fin></date>
+    <date><original>ca. 1u89</original><ini>1089</ini><fin>1989</fin></date>
+    <date><original>ca. 1uu9</original><ini>1009</ini><fin>1999</fin></date>
+    <date><original>ca. u9</original><ini>19</ini><fin>99</fin></date>
+    <date><original>ca. u89</original><ini>189</ini><fin>989</fin></date>
+    <date><original>ca. uu9</original><ini>109</ini><fin>999</fin></date>
+    <date><original>178u a.c.</original><ini>-1789</ini><fin>-1780</fin></date>
+    <date><original>17uu a.c.</original><ini>-1799</ini><fin>-1700</fin></date>
+    <date><original>1uuu a.c.</original><ini>-1999</ini><fin>-1000</fin></date>
+    <date><original>u789 a.c.</original><ini>-9789</ini><fin>-1789</fin></date>
+    <date><original>uu89 a.c.</original><ini>-9989</ini><fin>-1089</fin></date>
+    <date><original>uuu9 a.c.</original><ini>-9999</ini><fin>-1009</fin></date>
+    <date><original>1u89 a.c.</original><ini>-1989</ini><fin>-1089</fin></date>
+    <date><original>1uu9 a.c.</original><ini>-1999</ini><fin>-1009</fin></date>
+    <date><original>u9 a.c.</original><ini>-99</ini><fin>-19</fin></date>
+    <date><original>u89 a.c.</original><ini>-989</ini><fin>-189</fin></date>
+    <date><original>uu9 a.c.</original><ini>-999</ini><fin>-109</fin></date>
+    <date><original>ca. 178u a.c.</original><ini>-1789</ini><fin>-1780</fin></date>
+    <date><original>ca. 17uu a.c.</original><ini>-1799</ini><fin>-1700</fin></date>
+    <date><original>ca. 1uuu a.c.</original><ini>-1999</ini><fin>-1000</fin></date>
+    <date><original>ca. u789 a.c.</original><ini>-9789</ini><fin>-1789</fin></date>
+    <date><original>ca. uu89 a.c.</original><ini>-9989</ini><fin>-1089</fin></date>
+    <date><original>ca. uuu9 a.c.</original><ini>-9999</ini><fin>-1009</fin></date>
+    <date><original>ca. 1u89 a.c.</original><ini>-1989</ini><fin>-1089</fin></date>
+    <date><original>ca. 1uu9 a.c.</original><ini>-1999</ini><fin>-1009</fin></date>
+    <date><original>ca. u9 a.c.</original><ini>-99</ini><fin>-19</fin></date>
+    <date><original>ca. u89 a.c.</original><ini>-989</ini><fin>-189</fin></date>
+    <date><original>ca. uu9 a.c.</original><ini>-999</ini><fin>-109</fin></date>
+</dates>
