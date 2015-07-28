@@ -1,6 +1,6 @@
 # capturaYear-xsl-template
 
-<b>This template will grab the year or range of years from various types of date strings vía XSLT 1.0</b>
+<b>This template will grab the year or range of years from various types of standaryzed spanish date strings vía XSLT 1.0</b>
 
 Use transform.php to test it with PHP
 
