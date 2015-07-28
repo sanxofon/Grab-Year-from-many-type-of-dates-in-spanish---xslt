@@ -2,39 +2,24 @@
 
 <b>This template will grab the year or range of years from various types of standaryzed spanish date strings vía XSLT 1.0</b>
 
-Use transform.php to test it with PHP
+* Use transform.html to test it with Javascript
+* Use transform.php to test it with PHP
 
-Use transform.html to test it with Javascript
+<b>What parses:</b>
 
-Accepted input formats:
+* Matches and removes <i>circa</i> (<b>ca.</b>) at the begining of the date string.
+* Matches, takes acount & removes <i>antes de Cristo</i> (<b>a.c.</b>) at the end of the date string.
+* Converts <i>antes de Cristo</i> (<b>a.c.</b>) date strings to  negative years.
+* Avoids the year <b>0</b> adn converts it to <b>1</b> or <b>-1</b> depending on the case.
+* Converts centuries (<b>siglo</b>) in roman numerals to range of years.
+* Generates year ranges for <i>unknown</i> date digits (<b>u</b>), eg. <b>178u</b>, <b>17uu</b>, <b>1u89</b>.
 
-    1789-12-31
-    ca. 1789-12-31
-    1789-12-31 a.c.
+<b>Accepted input formats:</b>
 
-    1789-12
-    ca. 1789-12
-    1789-12 a.c.
+    [ca.] YYYY-MM-DD [a.c.]
+    siglo XX [a.c.]
 
-    1789
-    ca. 1789
-    1789 a.c.
-
-    siglo XV
-    siglo XV a.c.
-
-    178u
-    17uu
-    1uuu
-
-    u789
-    uu89
-    uuu9
-
-    1u89
-    1uu9
-
-Will correctly output the year of following test date strings:
+<b>Will correctly output the year of following test date strings:</b>
 
     original  =>  year [to year]
     0  =>  1
