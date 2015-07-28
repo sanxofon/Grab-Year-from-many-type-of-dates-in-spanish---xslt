@@ -395,23 +395,28 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:choose>
-            <xsl:when test="$yearif='fin'">
-                <xsl:if test="normalize-space(substring-before($yeare,'/'))!=normalize-space(substring-after($yeare,'/'))">
-                    <xsl:value-of select="normalize-space(substring-after($yeare,'/'))" />
-                </xsl:if>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:choose>
-                    <xsl:when test="contains($yeare,'/')">
-                        <xsl:value-of select="normalize-space(substring-before($yeare,'/'))" />
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="normalize-space($yeare)" />
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:otherwise>
-        </xsl:choose>
+        <xsl:variable name="yearres">
+            <xsl:choose>
+                <xsl:when test="$yearif='fin'">
+                    <xsl:if test="normalize-space(substring-before($yeare,'/'))!=normalize-space(substring-after($yeare,'/'))">
+                        <xsl:value-of select="normalize-space(substring-after($yeare,'/'))" />
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="contains($yeare,'/')">
+                            <xsl:value-of select="normalize-space(substring-before($yeare,'/'))" />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="normalize-space($yeare)" />
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="normalize-space($yearres)!='' and normalize-space($yearres)!='-' and normalize-space($yearres)!='/'">
+            <xsl:value-of select="normalize-space($yearres)" />
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="node()|@*">
